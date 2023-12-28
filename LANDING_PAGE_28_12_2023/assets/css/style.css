@@ -1,0 +1,138 @@
+body {
+    background-color: #000;
+    color: #00f;
+    font-family: 'Nunito', sans-serif;
+    margin: 20px; /* Adiciona espaçamento em volta da página */
+    padding: 50px 10px;
+  }
+
+  
+  .top-bar {
+    background-color: #000;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .top-bar .logo {
+    display: flex;
+    align-items: center;
+    padding: 0px 180px;
+  }
+  
+  .top-bar .logo img {
+    width: 220px;
+    height: 100px;
+    margin-right: 50px;
+  }
+  
+  .top-bar .menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .top-bar .menu a {
+    color: #fff;
+    margin-right: 70px;
+    font-size: 40px;
+    text-decoration: none;
+  }
+  
+  .top-bar .menu button {
+    background-color: #03b7de;
+    color: #000;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 45px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 40px;
+  }
+  .top-bar .menu button:hover {
+    background-color: #ffffff; /* Altere a cor de fundo quando hover, se desejar */
+  }
+
+  .section-01 {
+    background-color: #000; /* Cor de fundo preta, ajuste conforme necessário */
+    color: #fff; /* Cor do texto branco, ajuste conforme necessário */
+    padding: 80px 190px; /* Espaçamento interno, ajuste conforme necessário */
+    text-align: center; /* Centralizar o conteúdo do texto */
+  }
+  
+  .section-01 h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 110px;
+    line-height: 110px;
+    color: transparent;
+    background-color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: left; /* Centraliza à esquerda */
+    margin-bottom: 60px;
+  }
+  
+  .section-01 .second-text {
+    color: #fff;
+    font-size: 50px;
+    margin-top: 50px;
+    line-height: 55px;
+    
+    text-align: left; /* Centraliza à esquerda */
+  }
+  
+  
+  .section-01 h1 .blue-text {
+    color: #03b7de;
+  }
+  
+  .section-01 h1 .white-text {
+    color: #fff;
+  }
+  
+
+  
+  .section-01 img {
+    max-width: 100%; /* Imagens responsivas, ajuste conforme necessário */
+    height: auto;
+  }
+  
+.btn-get-services {
+  background-color: #03b7de;
+  color: #000000;
+  border: none;
+  padding: 10px 50px;
+  border-radius: 90px;
+  cursor: pointer;
+  font-size: 30px;
+  margin-right: 10px; 
+}
+
+.btn-get-services:hover {
+  background-color: #ffffff; /* Altere a cor de fundo quando hover, se desejar */
+}
+
+.btn-contact-us {
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid transparent;
+  border-image: linear-gradient(to bottom, #ffffff, #03b7de);
+  border-image-slice: 1;
+  padding: 10px 50px;
+  border-radius: 90px; /* Raio arredondado */
+  cursor: pointer;
+  font-size: 30px;
+}
+
+
+
+
+
+
+.btn-contact-us:hover {
+
+  color: #ffffff;
+  border-color: #ffffff; /* Altera a cor da borda durante o hover */
+}
+
