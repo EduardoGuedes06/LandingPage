@@ -16,88 +16,167 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-GYZC/HsqEaJXdV7C0iaMkbcu2QmFt6eKdLTFBPilwgeV/2KbpXomBnn8lnmgZ8bk0W9x4Ew3gHvULcDNe4L1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="preloader-wrapper">
-      <div class="preloader"></div>
-    </div>
-  
-    <div class="top-bar">
-      <div class="logo">
-        <img src="/images/logo.png" alt="Ícone">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">home.</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">services.</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">about us.</a>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-gift2">get giftcard</button>
+          </li>
+        </ul>
       </div>
-      <div class="menu">
-        <a href="#">home.</a>
-        <a href="#">services.</a>
-        <a href="#">about us.</a>
-        <button>get giftcard</button>
-      </div>
     </div>
-  
-    <section class="section-01">
-        <div class="container-fluid">
-          <div class="row align-items-center">
-            <div class="col-md-6 col-12 text-center">
-                <h1>
-                    <span style="color: #03b7de;">Detailing your</span>
-                    <br>
-                    <span style="color: #03b7de;">car has never</span>
-                    <br>
-                    <span style="color: #ffffff;">been</span>
-                    <span style="color: #03b7de;">easier.</span>
-                  </h1>
-                  <p class="second-text">we provide high-quality<br> detailing services.</p>
-                  <br>
-                  <br>
-                  <br>
-                    <button class="btn-get-services">Get Services</button>
-                    <button class="btn-contact-us">Contact Us</button>
-
-                  
-            </div>
-            <div class="col-md-6 col-12 text-center">
-              <div class="mb-3">
-                <img src="/images/img2.png" alt="Your Image" class="img-fluid mx-auto d-block">
+  </nav>
+  <div class="container mainContent">
+    <div class="row">
+      <div class="col-6">
+        <h1>
+          <span style="color: #03b7de;">Detailing your</span>
+          <br>
+          <span style="color: #03b7de;">car has never</span>
+          <br>
+          <span style="color: #ffffff;">been</span>
+          <span style="color: #03b7de;">easier.</span>
+        </h1>
+        <p class="second-text">we providing high-quality<br> detailing services</p>
+        <button class="btn get-services">Get Services</button>
+        <button class="btn contact-us">Contact Us</button>
+      </div>
+      <div class="col col-p">
+        <div class="row">
+          <div class="col image1 col-img">
+            <img src="images/img2.png" class="img1">
+          </div>
+          <div class="col col-img">
+              <div class="row image2">
+                <img src="images/img1.png" class="img2">
               </div>
-              <div class="mb-3">
-                <img src="/images/img1.png" alt="Your Image" class="img-fluid">
+              <div class="row image3">
+                <img src="images/img3.png" class="img3">
               </div>
-              <div class="mb-3">
-                <img src="/images/img3.png" alt="Your Image" class="img-fluid">
-              </div>
-
-            </div>
           </div>
         </div>
-      </section>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-    
-      <div id="footer-bottom">
-        <div class="container-fluid">
-    
-        </div>
-      </div>
-  
-    <div id="footer-bottom">
-      <div class="container-fluid">
-  
       </div>
     </div>
-  
-    <script src="js/jquery-1.11.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/script.js"></script>
+    <div class="body-content row">
+      <p class="titleContent"><span class="imgFundo">our</span> services</p>
+      <div class="col">
+        <div class="row">
+          <div class="col cardItem" style="border-right: 1px solid #3d3d3d;border-bottom: 1px solid #3d3d3d;">
+            <p class="titleItem"><img src="images/icon1.PNG" class="imgIcon"> &nbsp paint correction</p>     
+            <p class="contentItem">Uses polishing and abrasives to enhance a vehicle's appearance and protect its surface.</p>
+          </div>
+          <div class="col cardItem" style="border-bottom: 1px solid #3d3d3d;">
+            <p class="titleItem"><img src="images/icon2.PNG" class="imgIcon"> &nbsp paint correction</p>     
+            <p class="contentItem">Uses polishing and abrasives to enhance a vehicle's appearance and protect its surface.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col cardItem" style="border-right: 1px solid #3d3d3d;">
+            <p class="titleItem"><img src="images/icon1.PNG" class="imgIcon"> &nbsp paint correction</p>     
+            <p class="contentItem">Uses polishing and abrasives to enhance a vehicle's appearance and protect its surface.</p>
+          </div>
+          <div class="col cardItem">
+            <p class="titleItem"><img src="images/icon2.PNG" class="imgIcon"> &nbsp paint correction</p>     
+            <p class="contentItem">Uses polishing and abrasives to enhance a vehicle's appearance and protect its surface.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <button class="btn get-services" style="margin-top: 240px; margin-left: 100px;">Get in touch </button>
+      </div>
+      <div class="row testmonials">
+        <p class="titleContent"><span class="imgFundo" style="padding: 20px 0 0 31px !important">test</span>imonials</p>
+        <div class="row" style="margin-top: 40px;">
+          <div class="col cardIcon" style="margin-left: 60px;"><i class="fa-solid fa-users iconTest"></i></div>
+          <div class="col cardIcon" style="margin-left: 130px;"><i class="fa-solid fa-users iconTest"></i></div>
+          <div class="col cardIcon" style="margin-left: 140px"><i class="fa-solid fa-users iconTest"></i></div>
+        </div>
+        <div class="row" style="margin-top: 40px;">
+          <div class="col cardMid1" style="margin-left: 0 !important;">"I'm impressed with the professionalism of the team an the attention to detail provided by Lux Car."</div>
+          <div class="col cardMid2">"I'm impressed with the professionalism of the team an the attention to detail provided by Lux Car."</div>
+          <div class="col cardMid1" style="margin-right: 0 !important;">"I'm impressed with the professionalism of the team an the attention to detail provided by Lux Car."</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row aboutUs">
+    <div class="container">
+      <div class="row">
+        <p class="titleContent"><span class="imgFundo2" style="padding: 20px 0 0 31px !important">abo</span>ut us</p>
+        <div class="col-3" style="display: flex; align-items: center; justify-content: center;">
+          <img src="images/icon.png" style="width: 200px;">
+      </div>
+      
+        <div class="col">
+          <p class="textAbout">
+            Discover the epitome of luxury automotive care at Lux Car Care. Our
+          passionate team specializes in services such as paint correction,
+          window film application, ceramic coating, and more. With meticulous
+          attention to detail, we ensure your vehicle receives the premium
+          treatment it deserves. Let us elevate the aesthetics and protection of
+          your car to new heights, providing you not just a service but a luxury-
+          on-wheels experience. At Lux Car Care, we transform vehicles with our
+          technical expertise and a passion for exceptional work. Trust us to
+          enhance the beauty of your automobile, delivering a drive that exudes
+          style and elegance.
+          </p>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row rowGet">
+      <p class="titleContent"><span class="imgFundo">get </span>in touch</p>
+      <div class="col" style="margin-top: 50px;">
+        <input type="text" class="inp" placeholder="Name">
+        <input type="text" class="inp" placeholder="Email">
+        <input type="text" class="inp" placeholder="Phone number">
+        <input type="text" class="inp" placeholder="Your message" style="padding: 30px !important">
+        <button class="btn get-services" style="margin-top: 30px;">Send message</button>
+      </div>
+      <div class="col-6">
+        <div class="row" style="margin-top: 50px;margin-left: 100px;">
+          <p class="textAbout"><img src="images/icon2.PNG" class="imgIcon2">luxcarcareinc@gmail.com</p>
+          <p class="textAbout"><img src="images/icon2.PNG" class="imgIcon2">508-685-7312</p>
+          <p class="textAbout"><img src="images/icon2.PNG" class="imgIcon2">262 bedford st, whitman, MA<br>02333, Unit A1</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" ></div>>
+    <div class="row" style="margin: 0;background-color: #0f0d0d !important;">
+      <div class="col-4">
+        <img src="images/logo.png" class="imgFooter">
+      </div>
+      <div class="col-2" style="padding-bottom: 70px;">
+        <p class="titleFooter">menu.</p>
+        <p class="txtFooter">home.</p>
+        <p class="txtFooter">our services.</p>
+        <p class="txtFooter">contact us</p>
+      </div>
+      <div class="col-2">
+        <p class="titleFooter">follow us.</p>
+        <img src="images/icon2.PNG" class="imgIcon2"><img src="images/icon2.PNG" class="imgIcon2">
+      </div>
+    </div>
+  </div>
 </body>
 </html>
